@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Danfo", sans-serif;
+        }
+        nav {
+            background-color: #d0ffd6;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: brown;
+            color: white;
+        }
+        #homediv {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        #images {
+            height: 250px;
+            width: 45%;
+            background-color: beige;
+            border-radius: 50% 0 50% 0;
+            /* Add background image */
+            background-image: url('image1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        #content {
+            height: 250px;
+            width: 45%;
+            background-color: rgb(185, 115, 144);
+            /* Add background image */
+            background-image: url('image2.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: cadetblue;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+        }
+        #socialmedia {
+            margin-top: 20px;
+        }
+        #socialmedia a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a> 
+            <a href="#aboutus">About Us</a> 
+            <a href="#contact">Contact</a> 
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Details</h1>
+        <div id="homediv">
+            <div id="images"></div>
+            <div id="content"></div>
+        </div>
+        <p>Here you can find details about our company or product.</p>
+        <p>Image 1: This image showcases our product from the front.</p>
+        <p>Image 2: This image highlights one of the unique features of our product.</p>
+    </section>
+    <section id="aboutus">
+        <h1>Table</h1>
+        <p>This section contains information presented in a tabular format.</p>
+    </section>
+    <section id="contact">
+        <h1>Contact Form</h1>
+        <p>Feel free to reach out to us using the form below.</p>
+    </section>
+    <footer>
+        <h3>Developed By</h3>
+        <div id="socialmedia">
+            <a href="#"><img src="socialmedia-icon1.png" alt="Social Media Icon 1"></a>
+            <a href="#"><img src="socialmedia-icon2.png" alt="Social Media Icon 2"></a>
+        </div>
+    </footer>
+</body>
+</html>
